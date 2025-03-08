@@ -9,7 +9,7 @@ import { AppContext } from './context/AppContext';
 function App() {
   const {fetchBlogsPosts}=useContext(AppContext);
   useEffect(()=>{
-    fetchBlogsPosts();
+    fetchBlogsPosts();//hi
   },[])
   return (
     <div className="App">
